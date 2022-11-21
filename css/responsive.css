@@ -2,7 +2,7 @@
 /* tablets */
 @media (min-width: 992px) and (max-width: 1190px) {
 	.countdown{
-		height: 285px;
+		height: 215px;
 	}
 	.top-header .navbar .navbar-collapse ul li a{
 		font-size: 14px;

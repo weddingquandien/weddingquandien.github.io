@@ -461,7 +461,7 @@ button:focus{
 	width: 100%;
 	height: 100%;
 	max-width: 550px;
-	height: 350px;
+	height: 215px;
 	margin: 0 auto;
 	position: relative;
 	z-index: 5;
@@ -498,25 +498,26 @@ button:focus{
 	font-size: 16px;
 }
 
-
 .countdown #timer div#days{
-	position: absolute;
+	position: static;
 	left: 0;
-	top: 90px;
+	
+
 }
 .countdown #timer div#hours{
-	position: absolute;
-	right: 0;
-	top: 90px;
+	position: static;
+	
+
 }
 .countdown #timer div#minutes{
-	position: absolute;
-	bottom: 0px;
-	left: 28%;
+	position: static;
+
+
 }
 .countdown #timer div#seconds{
-	position: absolute;
-	bottom: 0px;
+	position: static;
+	right: 0;
+
 }
 
 /*------------------------------------------------------------------
