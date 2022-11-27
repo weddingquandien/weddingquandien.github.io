@@ -2381,7 +2381,7 @@
 }
 .timeLine .row .item .textContent p {
 	text-justify: justify;
-	text-align: left;
+	text-align: justify;
 	padding: 0px 10px;
 	border-left: 5px solid #890025;
 }
