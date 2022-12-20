@@ -54,6 +54,35 @@ body {
     max-width: 80px;
     margin-bottom: 24px;
 }
+.css-nhan h1{
+	font-size: 40px;
+	margin: 0;
+    padding: 0;
+    color: white;
+	margin-bottom: 0px;
+    line-height: 0px;
+    font-family: "Passions Conflict", Arial, serif;
+}
+.css-nhan h2{
+	font-size: 80px;
+	margin: 0;
+    padding: 0;
+    color: white;
+	margin-bottom: 0px;
+    line-height: 1.5;
+    font-family: "Passions Conflict", Arial, serif;
+}
+.css-nhan h3{
+	font-size: 30px;
+	margin: 0;
+    padding: 0;
+    color: white;
+	margin-bottom: 0px;
+    line-height: 1.5;
+    font-family: "Cookie",cursive;;
+}
+
+}
 a {
   color: #F14E95;
   -webkit-transition: 0.5s;
