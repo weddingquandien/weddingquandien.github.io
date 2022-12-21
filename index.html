@@ -68,10 +68,10 @@
 
 	</head>
 	<body>
-	<div class="fh5co-fulll">
-		<header id="fh5co-header" class="fh5co-cover fh5co-full" role="banner" style="background-image:url(images/img_bg_2.jpg);data-stellar-background-ratio="0.5">
+	<div class="fh5co-fulll" id="fh5co-full" >
+		<header id="fh5co-header" class="fh5co-cover fh5co-full" role="banner" style="background-image:url(images/img_bg_2_edited.jpg);data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
-			<div class="container" style="margin-bottom: 500px; padding-left:1px; padding-right:1px">
+			<div class="fh5co-container container">
 				<div class="row css-nhan">
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<img src="images/nhan.png">
@@ -81,16 +81,18 @@
 						<div class="simply-countdown simply-countdown-one"></div>
 					</div>
 				</div>
-				<div class="row">
-					<div class= "css-mwmrgg">
-						<section id="scroll" class="scroll__icon">
-							<a href='#fh5co-couple'><div class="button">
-								<span></span></a>
-							</div>
-							<span class="text">Cuộn xuống để xem tiếp nè!</span>
-						</section>
-					</div>
-				</div>
+			
+                <div class= "css-mwmrgg">
+                    <section id="scroll" class="scroll__icon">
+                        <a href='#fh5co-couple'><div class="button">
+                            <span id="scroll-button" ></span></div></a>
+                        <div>
+                            <span class="text">Cuộn xuống để xem tiếp nè!</span>
+                        </div>
+
+                    </section>
+                </div>
+
 			</div>
 	</header>
 	</div>
@@ -353,7 +355,7 @@
 	</footer>
 	</div>
 
-	<audio id="track">
+	<audio id="track" loop>
 	  <source src="mp3/DamCuoiNha.mp3" type="audio/mpeg" />
 	</audio>
 
@@ -431,10 +433,23 @@
 	});
 
 	</script>
-	
+    
+	<script>
+    var controlBtn = document.getElementById('play-pause');
+    var scrollBtn = document.getElementById('scroll-button');
+    scrollBtn.addEventListener('click', scrollFunction);
+    function scrollFunction()
+    {
+        document.getElementById('fh5co-full').style.position = 'relative';
+        document.getElementById('track').play();
+        controlBtn.className = "pause";
+        document.removeEventListener('click', scrollFunction);
+    }
+    </script>
+    
 	<script>
 	function scrollWin() {
-	  document.getElementById('fh5co-couple').scrollTop -= 10;
+        document.getElementById('fh5co-couple').scrollTop -= 10;
 	}
 	</script>
 
