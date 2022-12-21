@@ -84,10 +84,10 @@
 				<div class="row">
 					<div class= "css-mwmrgg">
 						<section id="scroll" class="scroll__icon">
-							<div class="button">
-								<span></span>
+							<a href='#fh5co-couple'><div class="button">
+								<span></span></a>
 							</div>
-							<span class="text"> Cuộn xuống để xem tiếp nè!</span>
+							<span class="text">Cuộn xuống để xem tiếp nè!</span>
 						</section>
 					</div>
 				</div>
@@ -353,7 +353,7 @@
 	</footer>
 	</div>
 
-	<audio controls autoplay id="track">
+	<audio id="track">
 	  <source src="mp3/DamCuoiNha.mp3" type="audio/mpeg" />
 	</audio>
 
@@ -430,6 +430,12 @@
 	controlBtn.className = "play";
 	});
 
+	</script>
+	
+	<script>
+	function scrollWin() {
+	  document.getElementById('fh5co-couple').scrollTop -= 10;
+	}
 	</script>
 
 	</body>

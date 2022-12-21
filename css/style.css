@@ -230,6 +230,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .css-mwmrgg #scroll span
 {
 	position:absolute;
+	right:44%;
 	bottom:46px;
 	text-align:center;
 	color:#fff;
