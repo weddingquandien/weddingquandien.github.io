@@ -303,7 +303,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-galleryy {
     width: 100%;
-    height: 100vh;
     position: fixed;
     z-index: 99999;
 }
@@ -1205,20 +1204,40 @@ form label {
   padding: 3em 0;
   clear: both;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   #fh5co-testimonial,
   #fh5co-services,
   #fh5co-started,
   #fh5co-footer,
   #fh5co-event,
   #fh5co-couple-story,
-  #fh5co-couple,
-  #fh5co-gallery,
   .fh5co-section {
     padding: 3em 0;
   }
 }
 
+@media screen and (max-width: 960px) {
+#fh5co-gallery,
+#fh5co-couple,
+  .fh5co-section {
+    padding: 3em 0;
+	height:100vh;
+  }
+}
+@media screen and (max-width: 960px) {
+#fh5co-gallery,
+#fh5co-couple,
+  .fh5co-section {
+    padding: 3em 0;
+	height:100vh;
+  }
+}
+
+@media screen and (max-width: 960px) {
+#container {
+	height:100vh;
+  }
+}
 .fh5co-section-gray {
   background: rgba(0, 0, 0, 0.04);
 }
@@ -1228,7 +1247,7 @@ form label {
   margin: 0 auto;
   position: relative;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .couple-wrap {
     width: 100%;
   }
