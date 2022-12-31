@@ -300,6 +300,12 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   margin: 2px 0 0 0;
 }
+.fh5co-galleryy {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 99999;
+}
 .fh5co-nav ul li {
   padding: 0;
   margin: 0;
@@ -418,6 +424,14 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   float: left;
   position: relative;
+}
+
+.fh5co-galley {
+  background-position: center center;
+  width: 100%;
+  float: left;
+  position: relative;
+  height:100vh;
 }
 
 .fh5co-video {
@@ -1187,7 +1201,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 3em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
