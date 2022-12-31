@@ -540,7 +540,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  height: 900px;
   float: left;
 }
 #fh5co-counter .display-t,
@@ -557,7 +557,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .fh5co-heading span,
 #fh5co-event .fh5co-heading span {
-  color: rgba(255, 255, 255, 0.5);
+  color: #f5f5f5;
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 2px;
@@ -1257,6 +1257,7 @@ form label {
   color: #F14E95;
   font-size: 50px;
 }
+
 .couple-half .groom, .couple-half .bride {
   float: left;
   -webkit-border-radius: 50%;
@@ -1372,22 +1373,39 @@ form label {
   color: #F14E95;
   font-family: "Passions Conflict", Arial, serif;
 }
+
+.fh5co-heading h1 {
+  padding-top:15px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: "Great Vibes", Arial, serif;
+  color: #f5f5f5
+}
+
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
     font-size: 40px;
   }
 }
 .fh5co-heading p {
-  font-size: 18px;
-  line-height: 1.5;
-  color: #828282;
+  font-size: 25px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  font-family: "Great Vibes", Arial, serif;
+  
+}
+.couple-half p {
+  font-size: 22px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  font-family: "Great Vibes", Arial, serif;
 }
 .fh5co-heading span {
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 2px;
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.4);
+  color: #000000;
 }
 
 #fh5co-testimonial .wrap-testimony {
@@ -1526,9 +1544,15 @@ form label {
   bottom: 0;
   background: rgba(0, 0, 0, 0.4);
 }
-#fh5co-started .fh5co-heading h2 {
-  color: #fff;
+#fh5co-gallery .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
+
 #fh5co-started .fh5co-heading p {
   color: rgba(255, 255, 255, 0.5);
 }
