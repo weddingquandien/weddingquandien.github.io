@@ -584,7 +584,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: #40504f;
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter,
@@ -1418,21 +1418,22 @@ form label {
 
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 .fh5co-heading p {
-  font-size: 25px;
+  font-size: 16px;
   margin-bottom: 10px;
-  line-height: 1.1;
-  font-family: "Great Vibes", Arial, serif;
+  line-height: 1.7;
+  font-family: "Work Sans", Arial, serif;
   
 }
-.couple-half p {
-  font-size: 22px;
+.fh5co-heading p {
+  font-size: 16px;
   margin-bottom: 10px;
-  line-height: 1.1;
-  font-family: "Great Vibes", Arial, serif;
+  line-height: 1.7;
+  font-family: "Work Sans", Arial, serif;
+  
 }
 .fh5co-heading span {
   text-transform: uppercase;
@@ -1584,7 +1585,7 @@ form label {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: #40504f;
 }
 
 #fh5co-started .fh5co-heading p {
