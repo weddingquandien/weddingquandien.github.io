@@ -1967,6 +1967,14 @@ padding-left: 25%;
 padding-right: 25%;
 }
 
+
+@media screen and (max-width: 768px) {
+  .mySlides{
+    padding-left: 2%;
+	padding-right: 2%;
+  }
+}
+
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
@@ -1994,7 +2002,11 @@ padding-right: 25%;
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
+/* Position the "prev button" to the left */
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
